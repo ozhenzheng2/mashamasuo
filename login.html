@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<script type="text/javascript" src="js/cookie.js" ></script>
+		<script type="text/javascript" src="js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="js/login.js" ></script>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	</head>
+	<body>
+		<div class="head">
+			<div class="head_top">
+				<div class="head_top_box clearfix">
+					<div class="_top_box_left">
+						<span class="day">30</span> 天天无障碍退换货
+						<i>|</i> 顺丰优选
+						<i>|</i> 主力城市次日到达
+					</div>
+					<div class="_top_box_right">
+						<a href="login.html">用户登录</a>
+						<i>|</i>
+						<a href="register.html">新用户注册</a>
+					</div>
+				</div>
+			</div>
+			<div class="head_center">
+				<div class="head_cen_inner">
+					<a href="index.html">
+						<img src="img/indexImg/logo.jpg" />
+					</a>
+					<div class="top_search">
+						<form action="" method="post">
+							<input placeholder="查找" type="text" name="" id="txt" value="" />
+							<input type="submit" value="" />
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="head_bottom">
+				<div class="head_nav">
+					<div class="_nav_left">
+						<a href="index.html">首页</a>
+						<a href="#">薄便装</a>
+						<a href="#">衬衫</a>
+						<a href="#">休闲裤</a>
+						<a href="#">编织鞋</a>
+						<a href="#">休闲鞋</a>
+						<a href="#">皮衣</a>
+						<a href="#">牛仔裤</a>
+						<a href="#">长袖毛衫</a>
+						<a href="#">长袖T恤</a>
+						<a href="#">卫衣</a>
+						<a href="#">短T
+							<i class="hot_nav">
+								<img src="img/indexImg/hot.gif"/>
+							</i>
+						</a>
+					</div>
+					<div class="_nav_right">
+						<a href="goods_list.html">本周会员专享
+							<i class="hot_nav">
+								<img src="img/indexImg/hot.gif"/>
+							</i>
+						</a>
+						<a href="goods_list.html">断码清仓</a>
+						<a href="goods_list.html">新品发布</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--二级菜单导航-->
+		<div class="nav_menu">
+			<div class="menu_wrap">
+				<div class="menu_info clearfix">
+					<div class="info_inner">
+						<ul class="info_inner_1 clearfix">
+							<li>
+								<a href="#">
+									<span>外套</span><i class="arrow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>衬衫</span><i class="arrow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>T恤</span><i class="arrow"></i>
+								</a>
+
+							</li>
+							<li>
+								<a href="#">
+									<span>针织衫</span><i class="arrow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>裤子</span><i class="arrow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>男鞋</span><i class="arrow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>内衣</span><i class="arrow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>皮包</span><i class="arrow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>皮带</span><i class="arrow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>饰品</span><i class="arrow"></i>
+								</a>
+							</li>
+						</ul>
+						<div class="info_sec">
+							<a class="info_img" href="#"><img src="img/indexImg/masa_nav_add1214.jpg" /></a>
+							<ul class="goodslist1"></ul>
+							<ul class="goodslist2"></ul>
+							<ul class="goodslist3"></ul>
+							<ul class="goodslist4"></ul>
+							<ul class="goodslist5"></ul>
+							<ul class="goodslist6"></ul>
+							<ul class="goodslist7"></ul>
+							<ul class="goodslist8"></ul>
+							<ul class="goodslist9"></ul>
+							<ul class="goodslist10"></ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="login_box">
+			<div id="log_container">
+				<div id="login_box">
+					<div class="login_info">
+						<div class="log_tit">会员登录</div>
+						<div class="log_box clearfix">
+							<input type="text" placeholder="Email/手机号" name="" id="log_username"  />
+							<input type="password" placeholder="密码" name="" id="log_password"  />
+							<label>
+								<input type="checkbox" name="" id="" value="" />
+								记住用户名
+							</label>
+							<a class="forget" href="javascript:;">忘记密码？</a>
+							|
+							<a class="free_reg" href="register.html">免费注册</a>
+							<a id="login" href="javascript:;">
+								<img src="img/RegLog/log_btn.jpg"/>
+							</a>
+						</div>
+						<div class="log_other">
+							<div id="log_title">
+								使用合作方登录：
+							</div>
+							<div id="log_list" class="clearfix">
+								<a href="javascript:;">
+									<span class="icon_qq"></span>
+									腾讯QQ
+								</a>
+								<a href="javascript:;">
+									<span class="icon_weibo"></span>
+									新浪微博
+								</a>
+								<a href="javascript:;">
+									<span class="icon_alipay"></span>
+									支付宝
+								</a>
+								<a href="javascript:;">
+									<span class="icon_kaixin"></span>
+									开心网
+								</a>
+								<a href="javascript:;">
+									<span class="icon_q360"></span>
+									360
+								</a>
+								<a href="javascript:;">
+									<span class="icon_renren"></span>
+									人人网
+								</a>
+								<a href="javascript:;">
+									<span class="icon_139"></span>
+									139邮箱
+								</a>
+								<a href="javascript:;">
+									<span class="icon_163"></span>
+									163邮箱
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer_top">
+				<img src="img/indexImg/footer_m_6.jpg" />
+			</div>
+			<div class="footer_help clearfix">
+				<ul class="help_list">
+					<li>新手指南</li>
+					<li>
+						<a href="#">注册新用户</a>
+					</li>
+					<li>
+						<a href="#">网站订购流程</a>
+					</li>
+				</ul>
+				<ul class="help_list">
+					<li>售后服务</li>
+					<li>
+						<a href="#">退换货政策</a>
+					</li>
+					<li>
+						<a href="#">鞋类三包政策</a>
+					</li>
+				</ul>
+				<ul class="help_list">
+					<li>客户中心</li>
+					<li>
+						<a href="#">常见问题</a>
+					</li>
+					<li>
+						<a href="#">投诉与建议</a>
+					</li>
+				</ul>
+				<ul class="help_list">
+					<li>如何付款/退款</li>
+					<li>
+						<a href="#">支付方式及付款等待期限</a>
+					</li>
+					<li>
+						<a href="#">常见支付问题</a>
+					</li>
+				</ul>
+				<ul class="help_list">
+					<li>配送方式</li>
+					<li>
+						<a href="#">配送方式及范围</a>
+					</li>
+					<li>
+						<a href="#">货到付款城市目录</a>
+					</li>
+					<li>
+						<a href="#">配送常见问题</a>
+					</li>
+				</ul>
+				<ul class="help_list">
+					<li>技术与服务</li>
+					<li>
+						<a href="#">B2C仓储服务</a>
+					</li>
+				</ul>
+				<div class="help_email">
+					<div class="book_email">
+						<h3>订阅邮箱</h3>
+						<p>立即订阅，获得每日最新资讯</p>
+					</div>
+					<div class="email_txt clearfix">
+						<input type="text" id="book_email" value="请输入你的邮箱地址" onfocus="if (value == '请输入你的邮箱地址') {
+                    value = ''
+                }" onblur="if (value == '') {
+                    value = '请输入你的邮箱地址'
+                }">
+					</div>
+					<a class="email_btn" href="javascript:;">订阅</a>
+				</div>
+			</div>
+			<div class="footer_nav">
+				<div class="footer_nav_inner">
+					<ul class="clearfix">
+						<li>
+							<a href="#">关于MasaMaso</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a href="#">网站地图</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a href="#">隐私条款</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a href="#">企业订购</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a href="#">加入我们</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a href="#">帮助中心</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a href="#">网站联盟</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a href="#">友情链接</a>
+							<span>|</span>
+						</li>
+
+						<li class="pe">
+							<a href="#">总裁邮箱</a>
+							<span>|</span>
+						</li>
+						<li class="integrity">
+							<a href="#">
+								<img src="img/indexImg/integrity_logo.gif" />
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer_copy">
+					Copyright © 2008-2050 MasaMaso.com All Right Reserved <a href="javascript:;">京ICP证080088号， 京ICP备09042941号-8,</a>
+					<a href="javascript:;"><span></span>北京市公安局朝阳分局备案编号：1101051120</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

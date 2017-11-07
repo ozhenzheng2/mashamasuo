@@ -1,0 +1,513 @@
+[
+	{
+		"navbtn": "本周新品",
+		"list": [
+			{
+				"name": "none",
+				"list": [
+					{
+						"src": "img/goods_list/goods_list_1.jpg",
+						"name": "商务夹克系列/防风/pu/藏蓝/净色/薄便装",
+						"newprice": "459",
+						"oldprice": "1699"
+					}, {
+						"src": "img/goods_list/new_2.jpg",
+						"name": "商务夹克系列/防风/pu/藏蓝/净色/薄便装",
+						"newprice": "459",
+						"oldprice": "1699"
+					}, {
+						"src": "img/goods_list/new_3.jpg",
+						"name": "时尚手包/大容量多功能实用/头层牛皮/黑色/荔枝纹/手包",
+						"newprice": "559",
+						"oldprice": "1999"
+					}, {
+						"src": "img/goods_list/new_4.jpg",
+						"name": "时尚手包/大容量多功能实用/头层牛皮/黑色/荔枝纹/手包",
+						"newprice": "559",
+						"oldprice": "1999"
+					}, {
+						"src": "img/goods_list/new_5.jpg",
+						"name": "时尚手包/大容量多功能实用/头层牛皮/黑色/荔枝纹/手包",
+						"newprice": "559",
+						"oldprice": "1999"
+					}, {
+						"src": "img/goods_list/new_6.jpg",
+						"name": "单肩背系列/拼接/头层牛皮/黑色/荔枝纹/包",
+						"newprice": "699",
+						"oldprice": "2499"
+					}, {
+						"src": "img/goods_list/new_7.jpg",
+						"name": "单肩背系列/拼接/头层牛皮/黑色/荔枝纹/包",
+						"newprice": "899",
+						"oldprice": "3299"
+					}, {
+						"src": "img/goods_list/new_8.jpg",
+						"name": "商务手拎包/轻便/头层牛皮/黑色/荔枝纹/包",
+						"newprice": "1099",
+						"oldprice": "3999"
+					}, {
+						"src": "img/goods_list/new_9.jpg",
+						"name": "时尚皮毛二体系列/山羊皮/时尚翻领澳洲羊毛/黑色/净色/皮毛二体",
+						"newprice": "4599",
+						"oldprice": "16999"
+					}, {
+						"src": "img/goods_list/new_10.jpg",
+						"name": "商务休闲系列/耐磨/头层牛皮/黑色/压纹/正装皮带",
+						"newprice": "169",
+						"oldprice": "609"
+					}, {
+						"src": "img/goods_list/new_11.jpg",
+						"name": "商务休闲系列/耐磨/头层牛皮/棕色/压纹/正装皮带",
+						"newprice": "169",
+						"oldprice": "609"
+					}, {
+						"src": "img/goods_list/new_12.jpg",
+						"name": "高端羊绒系列/柔软贴身保暖/山羊绒/灰色/条纹/羊绒衫",
+						"newprice": "899",
+						"oldprice": "3299"
+					}, {
+						"src": "img/goods_list/new_13.jpg",
+						"name": "高端羊绒系列/柔软贴身保暖/山羊绒/宝石蓝/净色/长袖毛衫",
+						"newprice": "899",
+						"oldprice": "3299"
+					}, {
+						"src": "img/goods_list/new_14.jpg",
+						"name": "时尚休闲/潮流舒适/弹力布/黑色/净色/休闲鞋",
+						"newprice": "269",
+						"oldprice": "969"
+					}, {
+						"src": "img/goods_list/new_15.jpg",
+						"name": "休闲潮靴系列/牛皮/拼接/黑色/光面/休闲靴",
+						"newprice": "409",
+						"oldprice": "2499"
+					}, {
+						"src": "img/goods_list/new_16.jpg",
+						"name": "修身成衣免烫系列/50次水洗不变形/纯棉/蓝色/净色/长袖衬衫",
+						"newprice": "389",
+						"oldprice": "1499"
+					}, {
+						"src": "img/goods_list/new_17.jpg",
+						"name": "80克轻暖系列/轻薄保暖/100%聚酯纤维/红色/净色/羽绒服",
+						"newprice": "449",
+						"oldprice": "1699"
+					}, {
+						"src": "img/goods_list/new_18.jpg",
+						"name": "时尚休闲系列/舒适弹力/棉弹/靛蓝色/净色/牛仔裤",
+						"newprice": "189",
+						"oldprice": "719"
+					}, {
+						"src": "img/goods_list/new_19.jpg",
+						"name": "时尚休闲系列/舒适弹力/棉弹/深靛蓝色/净色/牛仔夹克",
+						"newprice": "249",
+						"oldprice": "925"
+					}, {
+						"src": "img/goods_list/new_20.jpg",
+						"name": "拉链包/鳄鱼纹/牛皮/咖色/纯色/皮夹",
+						"newprice": "289",
+						"oldprice": "1499"
+					}, {
+						"src": "img/goods_list/new12.jpg",
+						"name": "精致时尚系列/防风保暖/100%聚酯纤维/米色/净色/羽绒服",
+						"newprice": "799",
+						"oldprice": "3599"
+					}
+				]
+			}
+		]
+	}, {
+		"navbtn": "T恤",
+		"list": [
+			{
+				"name": "长袖T恤",
+				"list": [
+					{
+						"src": "img/goods_list/cs_1.jpg",
+						"name": "针织衬衫款系列/舒适保暖/羊毛混纺/深蓝/净色/长T",
+						"newprice": "359",
+						"oldprice": "1299"
+					}, {
+						"src": "img/goods_list/cs_2.jpg",
+						"name": "针织衬衫款系列/拉绒保暖/羊毛混纺/酒红/净色/长T",
+						"newprice": "359",
+						"oldprice": "1299"
+					}, {
+						"src": "img/goods_list/cs_3.jpg",
+						"name": "针织衬衫款系列/拉绒保暖/羊毛混纺/雀蓝/净色/长T",
+						"newprice": "359",
+						"oldprice": "1299"
+					}, {
+						"src": "img/goods_list/cs_4.jpg",
+						"name": "针织衬衫款系列/舒适保暖/羊毛混纺/红咖/提花/长T",
+						"newprice": "359",
+						"oldprice": "1299"
+					}, {
+						"src": "img/goods_list/cs_5.jpg",
+						"name": "针织衬衫款系列/舒适保暖/羊毛混纺/酒红/格纹/长T",
+						"newprice": "359",
+						"oldprice": "1299"
+					}, {
+						"src": "img/goods_list/cs_6.jpg",
+						"name": "针织衬衫款系列/舒适保暖/羊毛混纺/深蓝/格纹/长T",
+						"newprice": "359",
+						"oldprice": "1299"
+					}, {
+						"src": "img/goods_list/csd_7.jpg",
+						"name": "温暖拉绒系列/拉绒保暖/羊毛混纺/深蓝/格纹/长T",
+						"newprice": "359",
+						"oldprice": "1299"
+					}, {
+						"src": "img/goods_list/cs_8.jpg",
+						"name": "温暖拉绒系列/拉绒保暖/羊毛混纺/紫红/格纹/长T",
+						"newprice": "359",
+						"oldprice": "1299"
+					}, {
+						"src": "img/goods_list/cs_9.jpg",
+						"name": "温暖拉绒系列/拉绒保暖/羊毛混纺/蓝色/格纹/长T",
+						"newprice": "359",
+						"oldprice": "1299"
+					}, {
+						"src": "img/goods_list/cs_10.jpg",
+						"name": "时尚潮男系列/胶印/棉氨/黑色/印花/长T",
+						"newprice": "249",
+						"oldprice": "929"
+					}, {
+						"src": "img/goods_list/cs_11.jpg",
+						"name": "20189|时尚潮男系列/胶印/棉氨/浅灰/印花/长T",
+						"newprice": "159",
+						"oldprice": "719"
+					}
+				]
+			}
+		]
+	}, {
+		"navbtn": "裤子",
+		"list": [
+			{
+				"name": "牛仔裤",
+				"list": [
+					{
+						"src": "img/goods_list/kz_1.jpg",
+						"name": "时尚休闲系列/超柔纱/棉弹/靛蓝色/净色/牛仔裤",
+						"newprice": "189",
+						"oldprice": "719"
+					}, {
+						"src": "img/goods_list/kz_2.jpg",
+						"name": "时尚休闲系列/超柔纱/棉弹/靛蓝色/净色/牛仔裤",
+						"newprice": "199",
+						"oldprice": "719"
+					}
+				]
+			}, {
+				"name": "休闲裤",
+				"list": [
+					{
+						"src": "img/goods_list/xxkz_1.jpg",
+						"name": "U型立裁系列/立体裁剪/棉氨/藏蓝 /净色/休闲裤",
+						"newprice": "289",
+						"oldprice": "999"
+					}, {
+						"src": "img/goods_list/xxkz_2.jpg",
+						"name": "U型立裁系列/立体裁剪/棉氨/军绿/净色/休闲裤",
+						"newprice": "289",
+						"oldprice": "999"
+					}, {
+						"src": "img/goods_list/xxkz_3.jpg",
+						"name": "U型立裁系列/立体裁剪/棉氨/宝蓝/净色/休闲裤",
+						"newprice": "289",
+						"oldprice": "999"
+					}
+				]
+			}
+		]
+	}, {
+		"navbtn": "鞋靴",
+		"list": [
+			{
+				"name": "休闲鞋",
+				"list": [
+					{
+						"src": "img/goods_list/xxx_1.jpg",
+						"name": "时尚休闲/潮流舒适/超纤皮/白色擦色底/净色/休闲鞋",
+						"newprice": "269",
+						"oldprice": "1179"
+					}, {
+						"src": "img/goods_list/xxx_2.jpg",
+						"name": "时尚休闲/潮流舒适/超纤皮/白色擦色底/净色/休闲鞋",
+						"newprice": "269",
+						"oldprice": "1179"
+					}, {
+						"src": "img/goods_list/xxx_3.jpg",
+						"name": "时尚休闲/潮流舒适/超纤皮/黑色/净色/休闲鞋",
+						"newprice": "269",
+						"oldprice": "1179"
+					}, {
+						"src": "img/goods_list/xxx_4.jpg",
+						"name": "时尚休闲/潮流舒适/超纤皮/白色/净色/休闲鞋",
+						"newprice": "269",
+						"oldprice": "1179"
+					}, {
+						"src": "img/goods_list/xxx_5.jpg",
+						"name": "20246|时尚运动/舒适透气/超纤弹力布/黑白/拼色/运动鞋",
+						"newprice": "269",
+						"oldprice": "1179"
+					}, {
+						"src": "img/goods_list/xxx_6.jpg",
+						"name": "20247|时尚运动/舒适透气/超纤弹力布/黑色/净色/运动鞋",
+						"newprice": "269",
+						"oldprice": "1179"
+					}
+				]
+			}, {
+				"name": "皮靴",
+				"list": [
+					{
+						"src": "img/goods_list/px_1.jpg",
+						"name": "休闲潮靴系列/牛皮/拼接/黑色/压纹/休闲靴",
+						"newprice": "469",
+						"oldprice": "999"
+					}, {
+						"src": "img/goods_list/px_2.jpg",
+						"name": "休闲潮靴系列/牛皮/拼接/黑色/光面/休闲靴",
+						"newprice": "409",
+						"oldprice": "2499"
+					}, {
+						"src": "img/goods_list/px_3.jpg",
+						"name": "休闲潮靴系列/牛皮/拼接/黑色/压纹/休闲靴",
+						"newprice": "699",
+						"oldprice": "999"
+					}
+				]
+			}, {
+				"name": "正装鞋",
+				"list": [
+					{
+						"src": "img/goods_list/zzx_1.jpg",
+						"name": "牛津鞋系列/舒适透气/牛皮/咖色/拼接/正装鞋",
+						"newprice": "359",
+						"oldprice": "1999"
+					}, {
+						"src": "img/goods_list/zzx_2.jpg",
+						"name": "牛津鞋系列/舒适透气/牛皮/蓝色/拼接/正装鞋",
+						"newprice": "359",
+						"oldprice": "1999"
+					}, {
+						"src": "img/goods_list/zzx_3.jpg",
+						"name": "牛津鞋系列/舒适透气/牛皮/黑色/拼接/正装鞋",
+						"newprice": "369",
+						"oldprice": "1999"
+					}
+				]
+			}, {
+				"name": "运动鞋",
+				"list": [
+					{
+						"src": "img/goods_list/ydx_1.jpg",
+						"name": "时尚运动/舒适透气/织物/黑色/编织/运动鞋",
+						"newprice": "329",
+						"oldprice": "1499"
+					}, {
+						"src": "img/goods_list/ydx_2.jpg",
+						"name": "时尚运动/舒适透气/织物/蓝色/编织/运动鞋",
+						"newprice": "329",
+						"oldprice": "1499"
+					}, {
+						"src": "img/goods_list/ydx_3.jpg",
+						"name": "时尚运动/舒适透气/牛皮/黑色/拼接/运动鞋",
+						"newprice": "329",
+						"oldprice": "1699"
+					}
+				]
+			}
+		]
+	}, {
+		"navbtn": "衬衫",
+		"list": [
+			{
+				"name": "长袖衬衫",
+				"list": [
+					{
+						"src": "img/goods_list/ccs_1.jpg",
+						"name": "修身成衣免烫系列/50次水洗不变形/纯棉/蓝色/净色/长袖衬衫",
+						"newprice": "389",
+						"oldprice": "1499"
+					}, {
+						"src": "img/goods_list/ccs_2.jpg",
+						"name": "修身成衣免烫系列/50次水洗不变形/纯棉/白色/净色/长袖衬衫",
+						"newprice": "389",
+						"oldprice": "1499"
+					}, {
+						"src": "img/goods_list/ccs_3.jpg",
+						"name": "针织衬衫款系列/丝滑舒适/桑蚕丝混纺/孔雀蓝/提花/长袖衬衫",
+						"newprice": "399",
+						"oldprice": "1499"
+					}, {
+						"src": "img/goods_list/ccs_4.jpg",
+						"name": "时尚休闲系列/手擦磨白/棉弹/蓝色/净色/牛仔衬衣",
+						"newprice": "199",
+						"oldprice": "819"
+					}, {
+						"src": "img/goods_list/ccs_5.jpg",
+						"name": "休闲牛仔衬衣系列/手工擦色/全棉/浅蓝/净色/牛仔衬衫",
+						"newprice": "199",
+						"oldprice": "314"
+					}
+				]
+			}
+		]
+	}, {
+		"navbtn": "长袖毛衫",
+		"list": [
+			{
+				"name": "长袖毛衫",
+				"list": [
+					{
+						"src": "img/goods_list/ccms_1.jpg",
+						"name": "时尚潮男系列/保暖/马海毛混纺/黑色/提花/长袖毛衫",
+						"newprice": "389",
+						"oldprice": "1499"
+					}, {
+						"src": "img/goods_list/ccms_2.jpg",
+						"name": "时尚潮男系列/保暖/金丝绒混纺/黑色/提花/长袖毛衫",
+						"newprice": "299",
+						"oldprice": "1069"
+					}
+				]
+			}, {
+				"name": "羊绒衫",
+				"list": [
+					{
+						"src": "img/goods_list/yrs_1.jpg",
+						"name": "高端羊绒系列/柔软贴身保暖/山羊绒/浅灰/净色/羊绒衫",
+						"newprice": "899",
+						"oldprice": "2899"
+					}, {
+						"src": "img/goods_list/yrs_2.jpg",
+						"name": "高端羊绒系列/柔软贴身保暖/山羊绒/冷蓝/净色/羊绒衫",
+						"newprice": "799",
+						"oldprice": "2899"
+					}
+				]
+			}
+		]
+	}, {
+		"navbtn": "皮包皮夹",
+		"list": [
+			{
+				"name": "皮包",
+				"list": [
+					{
+						"src": "img/goods_list/pb_1.jpg",
+						"name": "单肩背系列/拼接/头层牛皮/黑色/荔枝纹/包",
+						"newprice": "499",
+						"oldprice": "1799"
+					}, {
+						"src": "img/goods_list/pb_2.jpg",
+						"name": "时尚手包/大容量多功能实用/头层牛皮/黑色/压鳄鱼纹/手包",
+						"newprice": "399",
+						"oldprice": "1699"
+					}, {
+						"src": "img/goods_list/pb_3.jpg",
+						"name": "商务手拎包/轻便/头层牛皮/黄卡其/荔枝纹/包",
+						"newprice": "799",
+						"oldprice": "3599"
+					}
+				]
+			}, {
+				"name": "皮夹",
+				"list": [
+					{
+						"src": "img/goods_list/pj_1.jpg",
+						"name": "拉链包/编织/细腻羊皮/黑色/纯色/皮夹",
+						"newprice": "299",
+						"oldprice": "1499"
+					}, {
+						"src": "img/goods_list/pj_2.jpg",
+						"name": "西装夹/编织/细腻羊皮/黑色/纯色/皮夹",
+						"newprice": "289",
+						"oldprice": "1109"
+					}
+				]
+			}
+		]
+	}, {
+		"navbtn": "秋冬新品外套",
+		"list": [
+			{
+				"name": "薄便装",
+				"list": [
+					{
+						"src": "img/goods_list/bbz_1.jpg",
+						"name": "商务夹克系列/防风/pu/藏蓝/净色/薄便装",
+						"newprice": "459",
+						"oldprice": "1699"
+					}, {
+						"src": "img/goods_list/bbz_2.jpg",
+						"name": "商务夹克系列/防风/锦氨/酒红/净色/薄便装",
+						"newprice": "689",
+						"oldprice": "2499"
+					}
+				]
+			}, {
+				"name": "牛仔外套",
+				"list": [
+					{
+						"src": "img/goods_list/nzwt_1.jpg",
+						"name": "时尚休闲系列/舒适弹力/棉弹/深靛蓝色/净色/牛仔夹克",
+						"newprice": "249",
+						"oldprice": "925"
+					}, {
+						"src": "img/goods_list/nzwt_2.jpg",
+						"name": "时尚休闲系列/舒适弹力/棉弹/灰色/净色/牛仔夹克",
+						"newprice": "249",
+						"oldprice": "925"
+					}
+				]
+			}, {
+				"name": "卫衣",
+				"list": [
+					{
+						"src": "img/goods_list/wy_1.jpg",
+						"name": "时尚潮男系列/胶印/棉氨/黑色/印花/卫衣",
+						"newprice": "249",
+						"oldprice": "929"
+					}, {
+						"src": "img/goods_list/wy_2.jpg",
+						"name": "时尚潮男系列/胶印/棉氨/黑色/印花/卫衣",
+						"newprice": "249",
+						"oldprice": "929"
+					}
+				]
+			}, {
+				"name": "羽绒服",
+				"list": [
+					{
+						"src": "img/goods_list/yrf_1.jpg",
+						"name": "经典商务系列/防风保暖/75%聚酯纤维25%锦纶/墨绿/净色/羽绒服",
+						"newprice": "799",
+						"oldprice": "3599"
+					}, {
+						"src": "img/goods_list/yrf_2.jpg",
+						"name": "精致时尚系列/防风保暖/100%聚酯纤维/米色/净色/羽绒服",
+						"newprice": "799",
+						"oldprice": "3599"
+					}
+				]
+			}, {
+				"name": "皮衣",
+				"list": [
+					{
+						"src": "img/goods_list/py_1.jpg",
+						"name": "时尚皮毛二体系列/山羊皮/时尚翻领澳洲羊毛/黑色/净色/皮毛二体",
+						"newprice": "4599",
+						"oldprice": "16999"
+					}, {
+						"src": "img/goods_list/py_2.jpg",
+						"name": "时尚皮毛二体系列/山羊皮/时尚翻领澳洲羊毛/香槟/净色/皮毛二体",
+						"newprice": "4599",
+						"oldprice": "16999"
+					}
+				]
+			}
+		]
+	}
+]

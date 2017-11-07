@@ -1,0 +1,417 @@
+.cart_head {
+	height: 92px;
+	background: url(../img/cart/masamaso_logo.jpg) no-repeat center;
+}
+
+#direction {
+	width: 1002px;
+	margin: 0 auto;
+}
+
+.direc_wrap {
+	font-family: "宋体";
+	overflow: hidden;
+	height: 22px;
+	padding: 8px 0 0 10px;
+	font-size: 14px;
+	border-bottom: 2px solid #000
+}
+
+.direc_wrap span {
+	color: red;
+}
+
+#cart_container {
+	width: 1002px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	font-size: 12px
+}
+
+#cart_container h3 {
+	background: url(../img/cart/gou_icon.jpg) no-repeat right 10px;
+	float: left;
+	width: 99px;
+	height: 16px;
+	padding: 9px 0 0 10px;
+	color: #ff2628;
+	font: bold 14px SimSun
+}
+
+.tishi {
+	float: right;
+	width: 553px;
+	height: 20px;
+	margin: 5px 0;
+	padding-left: 5px;
+	background: #f7f8f8;
+	border: 1px solid #dedede;
+	line-height: 20px;
+	color: #ff2628
+}
+
+.tishi a {
+	overflow: hidden;
+	display: inline;
+	float: right;
+	width: 7px;
+	height: 7px;
+	margin: 6px 4px 0 0;
+	font-size: 0;
+	background: url(../img/cart/icon.gif) -15px -45px no-repeat;
+}
+
+.shopping_box {
+	border: 1px solid #DEDEDE;
+	clear: both;
+}
+
+.cart_species div {
+	text-align: center;
+	line-height: 26px;
+	float: left;
+	height: 26px;
+	color: #fff;
+	background: #9e9e9e;
+	border: 1px solid #f3f3f3;
+}
+
+.cart_good div {
+	float: left;
+	line-height: 80px;
+	height: 80px;
+	border: 1px solid #f3f3f3;
+	color: #666;
+	text-align: center;
+}
+
+.cart_code {
+	width: 67px;
+}
+
+.cart_name {
+	width: 350px;
+}
+
+.cart_oldp {
+	width: 141px;
+}
+
+.cart_newp {
+	width: 82px;
+}
+
+.cart_num {
+	width: 142px;
+}
+
+.cart_total {
+	width: 82px;
+}
+
+.cart_del {
+	width: 122px;
+}
+
+.cart_num .cart_num_addsub {
+	/*position: relative;*/
+	float: none;
+	line-height: 80px;
+	height: 16px;
+	border: none;
+	color: #666;
+	text-align: center;
+}
+
+.cart_num_addsub span {
+	line-height: 80px;
+	cursor: pointer;
+}
+
+.cart_num .cart_num_addsub input {
+	width: 38px;
+	margin: 0 3px;
+	border: 1px solid #e7e3e2;
+	color: #a0a0a0;
+	text-align: center;
+}
+
+.cart_del .del {
+	text-decoration: none;
+	color: #666666;
+	display: inline-block;
+	width: 39px;
+	height: 15px;
+	border: 1px solid #c2c2c2;
+	background: url(../img/cart/shopping_btn_bg.gif) repeat-x;
+	line-height: 15px;
+}
+
+.cart_num .cart_num_addsub img {
+	width: 11px;
+	height: 11px;
+	vertical-align: middle;
+}
+
+.cart_good_sec {
+	position: absolute;
+	left: 90px;
+	top: -190px;
+	z-index: 2;
+	display: none;
+}
+
+.cart_name .cart_good_txt {
+	float: left;
+	width: 237px;
+	height: 63px;
+	line-height: 10px;
+	padding: 17px 0 0 5px;
+	/*border-left: 1px solid #f3f3f3;*/
+	border: none;
+	text-align: left;
+}
+
+.cart_good_img img {
+	width: 56px;
+	height: 75px;
+	padding: 6px 18px 0;
+	/*border: none;*/
+}
+
+.cart_good_sec img {
+	width: 232px;
+	height: 312px;
+}
+
+.cart_name .cart_good_img {
+	position: relative;
+	float: left;
+	border: none;
+}
+
+.shopping_total {
+	width: 100%;
+	height: 55px;
+	margin-top: 1px;
+	background: #e4e4e4;
+}
+
+.del_all {
+	float: left;
+	height: 55px;
+	width: 181px;
+	line-height: 55px;
+	padding-left: 19px;
+}
+
+.del_all a {
+	text-decoration: none;
+	color: #666666;
+}
+
+.del_all a:hover {
+	text-decoration: underline;
+}
+
+.real_pay {
+	float: left;
+	padding-left: 70px;
+	color: red;
+	height: 55px;
+	width: 210px;
+	line-height: 55px;
+}
+
+.zhekou {
+	float: left;
+	height: 55px;
+	width: 130px;
+	padding-left: 20px;
+}
+
+.zhekou p {
+	height: 26px;
+	text-align: left;
+	line-height: 26px;
+}
+
+.original {
+	height: 55px;
+	width: 143px;
+	padding-left: 20px;
+	float: left;
+	line-height: 55px;
+}
+
+.original p {
+	height: 27px;
+	text-align: left;
+	line-height: 27px;
+}
+
+.original ._good_youhui {
+	color: red;
+}
+
+.good_total {
+	float: left;
+	height: 55px;
+	padding-left: 19px;
+	line-height: 55px;
+}
+
+.good_total p {
+	height: 27px;
+	line-height: 27px;
+	text-align: left;
+}
+
+.good_total p:nth-child(2) {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.good_total p ._good_total {
+	font-size: 18px;
+	color: red;
+}
+
+.pay_box {
+	float: right;
+	height: 75px;
+	padding: 25px 0 13px;
+}
+
+.pay_box a {
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	line-height: 41px;
+	color: #727171;
+	font-size: 14px;
+}
+
+.pay_box a img {
+	width: 138px;
+	height: 41px;
+}
+
+.login_tips {
+	clear: both;
+	overflow: hidden;
+	padding: 24px 16px 0 26px;
+	background: #f7f8f8;
+	border: 1px solid #dedede;
+}
+
+.none {
+	height: 40px;
+	padding-left: 49px;
+	padding-top: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	background: url(../img/cart/tips_icon.gif) no-repeat;
+}
+
+.login_tips ul {
+	height: 28px;
+	padding-left: 50px
+}
+
+.login_tips ul li {
+	float: left;
+	margin: 0 10px;
+}
+
+.footer_cart {
+	margin-top: 12px;
+	width: 100%;
+	height: 38px;
+	border-top: 1px solid #b8b7bc;
+	text-align: center;
+}
+
+address {
+	padding: 10px 0;
+	color: #727171;
+	font-size: 12px;
+	font-family: arial
+}
+
+#cart_container .ex_tit h3 {
+	background: none;
+	color: black;
+}
+
+#cart_container .ex_tit {
+	cursor: pointer;
+	color: black;
+	background-color: #fff;
+	margin-top: 20px;
+	height: 24px;
+	margin-bottom: 45px;
+	clear: both;
+	position: relative;
+	border-bottom: 2px solid #000;
+}
+
+#ex_product ul {
+	position: absolute;
+	top: -37px;
+}
+
+#ex_product ul {
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #dedede;
+	border-bottom: none;
+}
+
+#ex_product {
+	position: relative;
+	border-top: 1px solid #DEDEDE;
+}
+
+#ex_product ul li a {
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 0 20px 0 13px;
+	height: 36px;
+	line-height: 36px;
+	border-bottom: none;
+	background: #f7f8f8;
+	color: #ff2628
+}
+.gift{
+	padding: 10px;
+}
+#gift_box li{
+	    width: 226px;
+    overflow: hidden;
+    float: left;
+    margin: 5px 0;
+    height: 115px;
+}
+.leftimg{
+	float: left;
+	margin-top: 13px;
+}
+.right_text{
+	float: right;
+	    line-height: 22px;
+    width: 150px;
+	
+}
+.right_text a{
+	text-decoration: none;
+	color: #666666;
+}
+.right_text span{
+	color: #FF2628;
+}
+.right_text .product_oldprice{
+	color: #888888;
+	text-decoration: line-through;
+}

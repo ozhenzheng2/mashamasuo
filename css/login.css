@@ -1,0 +1,112 @@
+.login_box{
+	
+}
+#log_container{
+	background: url(../img/RegLog/home2016.jpg) no-repeat center;
+	height: 565px;
+	
+}
+#login_box{
+	    width: 300px;
+    height: 478px;
+    float: right;
+    margin: 35px 130px 0px 0px;
+    box-shadow: -20px 20px 100px -1px rgba(0,0,0,.5);
+    background: rgba(255,255,255,0.9);
+    opacity: 0.2;
+}
+.login_info{
+	margin-top: 25px;
+	padding: 0 30px;
+}
+.log_tit{
+	    margin-bottom: 20px;
+    color: #333;
+    font-size: 14px;
+}
+
+#log_username,#log_password{
+	    width: 228px;
+    border: 1px solid #888;
+    height: 33px;
+    padding-left: 10px;
+    font: 12px/33px Tahoma, Geneva, sans-serif;
+    outline: none;
+    background: white;
+    padding: 0 7px;
+    margin: 5px 0;
+    vertical-align: middle;
+}
+#log_password{
+	margin-bottom: 20px;
+}
+label input{
+	float: left;
+}
+.forget{
+	text-decoration: underline;
+	color: #888888;
+	margin-left: 10px;
+}
+.forget:hover{
+	text-decoration: underline;
+}
+.free_reg{
+	text-decoration: none;
+	color: #CB3330;
+}
+#login{
+	float: left;
+	margin-top: 20px;
+	display: block;
+}
+#log_title{
+	    border-top: 1px solid #d9d9d9;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #888888;
+}
+#log_list a{
+	float: left;
+	    width: 60px;
+    text-align: center;
+    float: left;
+    color: #6b6868;
+    margin: 5px 0 15px 0;
+    text-decoration: none;
+}
+.icon_139,.icon_163,.icon_alipay,.icon_kaixin,.icon_q360,.icon_qq,.icon_renren,.icon_weibo{
+	    background: url(../img/RegLog/login_icon.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: auto;
+}
+.icon_weibo{
+	background-position: 0 -34px;
+}
+
+.icon_alipay{
+	background-position: 0 -68px;
+}
+
+.icon_kaixin{
+	background-position: 0 -102px;
+}
+
+.icon_q360{
+	background-position: 0 -136px;
+}
+
+.icon_renren{
+	background-position: 0 -170px;
+}
+
+.icon_139{
+	background-position: 0 -204px;
+}
+
+.icon_163{
+	background-position: 0 -238px;
+}

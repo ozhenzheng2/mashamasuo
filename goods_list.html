@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/cookie.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js" ></script>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<script type="text/javascript" src="js/common.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/goods_list.css" />
+		<script type="text/javascript" src="js/goods_list.js"></script>
+	</head>
+
+	<body>
+		<div class="head">
+			<div class="head_top">
+				<div class="head_top_box clearfix">
+					<div class="_top_box_left">
+						<span class="day">30</span> 天天无障碍退换货
+						<i>|</i> 顺丰优选
+						<i>|</i> 主力城市次日到达
+					</div>
+					<div class="_top_box_right">
+						<a href="login.html">用户登录</a>
+						<i>|</i>
+						<a href="register.html">新用户注册</a>
+					</div>
+				</div>
+			</div>
+			<div class="head_center">
+				<div class="head_cen_inner">
+					<a href="index.html">
+						<img src="img/indexImg/logo.jpg" />
+					</a>
+					<div class="top_search">
+						<form action="" method="post">
+							<input placeholder="查找" type="text" name="" id="txt" value="" />
+							<input type="submit" value="" />
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="head_bottom">
+				<div class="head_nav">
+					<div class="_nav_left">
+						<a href="index.html">首页</a>
+						<a href="#">薄便装</a>
+						<a href="#">衬衫</a>
+						<a href="#">休闲裤</a>
+						<a href="#">编织鞋</a>
+						<a href="#">休闲鞋</a>
+						<a href="#">皮衣</a>
+						<a href="#">牛仔裤</a>
+						<a href="#">长袖毛衫</a>
+						<a href="#">长袖T恤</a>
+						<a href="#">卫衣</a>
+						<a href="#">短T
+							<i class="hot_nav">
+								<img src="img/indexImg/hot.gif"/>
+							</i>
+						</a>
+					</div>
+					<div class="_nav_right">
+						<a href="#">本周会员专享
+							<i class="hot_nav">
+								<img src="img/indexImg/hot.gif"/>
+							</i>
+						</a>
+						<a href="#">断码清仓</a>
+						<a href="goods_list.html">新品发布</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--二级菜单导航-->
+		<div class="nav_menu">
+			<div class="menu_wrap">
+				<div class="menu_info clearfix">
+					<div class="info_inner">
+						<ul class="info_inner_1 clearfix">
+							<li>
+								<a href="#">
+									<span>外套</span><i class="arrow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>衬衫</span><i class="arrow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>T恤</span><i class="arrow"></i>
+								</a>
+
+							</li>
+							<li>
+								<a href="#">
+									<span>针织衫</span><i class="arrow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>裤子</span><i class="arrow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>男鞋</span><i class="arrow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>内衣</span><i class="arrow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>皮包</span><i class="arrow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>皮带</span><i class="arrow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>饰品</span><i class="arrow"></i>
+								</a>
+							</li>
+						</ul>
+						<div class="info_sec">
+							<a class="info_img" href="#"><img src="img/indexImg/masa_nav_add1214.jpg" /></a>
+							<ul class="goodslist1"></ul>
+							<ul class="goodslist2"></ul>
+							<ul class="goodslist3"></ul>
+							<ul class="goodslist4"></ul>
+							<ul class="goodslist5"></ul>
+							<ul class="goodslist6"></ul>
+							<ul class="goodslist7"></ul>
+							<ul class="goodslist8"></ul>
+							<ul class="goodslist9"></ul>
+							<ul class="goodslist10"></ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="new_good">
+			<div class="in_banner">
+				<a href="#">
+					<img src="img/goods_list/in_banner.jpg" />
+				</a>
+			</div>
+			<div id="btn_nav">
+				<div class="btnnav_top">
+					<div class="btnnav_top_wrap clearfix">
+						<a page_fir_num="0" class="active" href="javascript:;"></a>
+						<a page_fir_num="1" href="javascript:;"></a>
+						<a page_fir_num="2" href="javascript:;"></a>
+						<a page_fir_num="3" href="javascript:;"></a>
+						<a page_fir_num="4" href="javascript:;"></a>
+						<a page_fir_num="5" href="javascript:;"></a>
+						<a page_fir_num="6" href="javascript:;"></a>
+						<a page_fir_num="7" href="javascript:;"></a>
+					</div>
+				</div>
+				<div class="dis_wrap">
+					<div class="district_sub_nav_bg" menu_page_id="1">
+						<div class="district_sub clearfix"></div>
+					</div>
+					<div class="district_sub_nav_bg" menu_page_id="2">
+						<div class="district_sub"></div>
+					</div>
+					<div class="district_sub_nav_bg" menu_page_id="3">
+						<div class="district_sub"></div>
+					</div>
+					<div class="district_sub_nav_bg" menu_page_id="4">
+						<div class="district_sub"></div>
+					</div>
+					<div class="district_sub_nav_bg" menu_page_id="5">
+						<div class="district_sub"></div>
+					</div>
+					<div class="district_sub_nav_bg" menu_page_id="6">
+						<div class="district_sub"></div>
+					</div>
+					<div class="district_sub_nav_bg" menu_page_id="7">
+						<div class="district_sub"></div>
+					</div>
+				</div>
+
+			</div>
+			<div class="show_wrap">
+				<div class="sub_show" page_num='0'></div>
+				<div class="sub_show" page_num='1'></div>
+				<div class="sub_show" page_num='2'></div>
+				<div class="sub_show" page_num='3'></div>
+				<div class="sub_show" page_num='4'></div>
+				<div class="sub_show" page_num='5'></div>
+				<div class="sub_show" page_num='6'></div>
+				<div class="sub_show" page_num='7'></div>
+			</div>
+			<div id="wrap_focus" class="clearfix">
+				<div class="focus1">
+					<h3>新品关注</h3>
+				</div>
+				<div class="focus2">
+					<div class="focus2_1">
+						 没有选到心仪的新品？
+					</div>
+					<div class="focus2_2">
+						没关系，下一波新品即将上线，请勾选感兴趣的品类并输入手机号，新品上新后会发送短信提醒，新款数量有限，先到先得哦！
+					</div>
+					<div class="focus2_3">
+						<ul class="clearfix">
+							 <li>
+							 	<label>
+							 		<input type="checkbox" name="int_dis" value="" />
+							 		短袖T恤
+							 	</label>
+							 </li>
+							 <li>
+							 	<label>
+							 		<input type="checkbox" name="int_dis" value="" />
+							 		短袖衬衫
+							 	</label>
+							 </li>
+							 <li>
+							 	<label>
+							 		<input type="checkbox" name="int_dis" value="" />
+							 		打底衫
+							 	</label>
+							 </li>
+							 <li>
+							 	<label>
+							 		<input type="checkbox" name="int_dis" value="" />
+							 		长袖衬衫
+							 	</label>
+							 </li>
+							 <li>
+							 	<label>
+							 		<input type="checkbox" name="int_dis" value="" />
+							 		长袖T恤
+							 	</label>
+							 </li>
+							 <li>
+							 	<label>
+							 		<input type="checkbox" name="int_dis" value="" />
+							 		裤子
+							 	</label>
+							 </li>
+							 <li>
+							 	<label>
+							 		<input type="checkbox" name="int_dis" value="" />
+							 		鞋
+							 	</label>
+							 </li>
+							 <li>
+							 	<label>
+							 		<input type="checkbox" name="int_dis" value="" />
+							 		皮带
+							 	</label>
+							 </li>
+							 <li>
+							 	<label>
+							 		<input type="checkbox" name="int_dis" value="" />
+							 		皮包
+							 	</label>
+							 </li>
+							
+						</ul>
+					</div>
+					<div class="focus2_4">
+						<img src="img/goods_list/district_phone_ico.jpg"/>
+						<h3>短信提醒</h3>
+						<input type="text" name="" id="remind" placeholder="请输入手机号点击上新提醒按钮" value=""  />
+						<a href="javascript:;">上新提醒</a>
+					</div>
+				</div>
+				<div class="focus3">
+					<div class="focus3_1">
+						想及时了解每周新品上新？
+					</div>
+					<div class="focus3_2">
+						请输入常用邮箱订阅新品信息，更多新品尽在掌握！
+					</div>
+					<div class="focus3_3">
+						<img src="img/goods_list/district_phone_ico.jpg"/>
+						<h3>邮箱提醒</h3>
+						<input type="text" name="" id="remind" placeholder="请输入邮箱地址点击订阅按钮" value=""  />
+						<a href="javascript:;">上新提醒</a>
+					</div>
+				</div>
+				<div class="focus4">
+					<div class="focus4_1">
+						加入微信俱乐部
+					</div>
+					<div class="focus4_2">
+						<img src="img/goods_list/mind_weixin.jpg"/>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--底部-->
+		<div class="foot_maso_transclass">
+			<a href="#">
+				<img src="img/indexImg/foot_maso_img.jpg" />
+			</a>
+			<div class="foot_maso_text">
+				<p class="hot_title">2 0 1 6 秋 冬 温 暖 系 列</p>
+				<p class="hot_content">满 4 9 9 送 保 暖 围 巾</p>
+			</div>
+		</div>
+
+		<!---->
+		<div class="footer">
+			<div class="footer_top">
+				<img src="img/indexImg/footer_m_6.jpg" />
+			</div>
+			<div class="footer_help clearfix">
+				<ul class="help_list">
+					<li>新手指南</li>
+					<li>
+						<a href="#">注册新用户</a>
+					</li>
+					<li>
+						<a href="#">网站订购流程</a>
+					</li>
+				</ul>
+				<ul class="help_list">
+					<li>售后服务</li>
+					<li>
+						<a href="#">退换货政策</a>
+					</li>
+					<li>
+						<a href="#">鞋类三包政策</a>
+					</li>
+				</ul>
+				<ul class="help_list">
+					<li>客户中心</li>
+					<li>
+						<a href="#">常见问题</a>
+					</li>
+					<li>
+						<a href="#">投诉与建议</a>
+					</li>
+				</ul>
+				<ul class="help_list">
+					<li>如何付款/退款</li>
+					<li>
+						<a href="#">支付方式及付款等待期限</a>
+					</li>
+					<li>
+						<a href="#">常见支付问题</a>
+					</li>
+				</ul>
+				<ul class="help_list">
+					<li>配送方式</li>
+					<li>
+						<a href="#">配送方式及范围</a>
+					</li>
+					<li>
+						<a href="#">货到付款城市目录</a>
+					</li>
+					<li>
+						<a href="#">配送常见问题</a>
+					</li>
+				</ul>
+				<ul class="help_list">
+					<li>技术与服务</li>
+					<li>
+						<a href="#">B2C仓储服务</a>
+					</li>
+				</ul>
+				<div class="help_email">
+					<div class="book_email">
+						<h3>订阅邮箱</h3>
+						<p>立即订阅，获得每日最新资讯</p>
+					</div>
+					<div class="email_txt clearfix">
+						<input type="text" id="book_email" value="请输入你的邮箱地址" onfocus="if (value == '请输入你的邮箱地址') {
+                    value = ''
+                }" onblur="if (value == '') {
+                    value = '请输入你的邮箱地址'
+                }">
+					</div>
+					<a class="email_btn" href="javascript:;">订阅</a>
+				</div>
+			</div>
+			<div class="footer_nav">
+				<div class="footer_nav_inner">
+					<ul class="clearfix">
+						<li>
+							<a href="#">关于MasaMaso</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a href="#">网站地图</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a href="#">隐私条款</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a href="#">企业订购</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a href="#">加入我们</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a href="#">帮助中心</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a href="#">网站联盟</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a href="#">友情链接</a>
+							<span>|</span>
+						</li>
+
+						<li class="pe">
+							<a href="#">总裁邮箱</a>
+							<span>|</span>
+						</li>
+						<li class="integrity">
+							<a href="#">
+								<img src="img/indexImg/integrity_logo.gif" />
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer_copy">
+					Copyright © 2008-2050 MasaMaso.com All Right Reserved <a href="javascript:;">京ICP证080088号， 京ICP备09042941号-8,</a>
+					<a href="javascript:;"><span></span>北京市公安局朝阳分局备案编号：1101051120</a>
+				</div>
+			</div>
+		</div>
+		<div id="cart_list">
+			<ul>
+				<li class="cart">
+					<a href="javascript:;">
+						<div class="cart_box">
+							<div class="cart_tab1"></div>
+							<div class="cart_tab2">购物车</div>
+							<div class="cart_tab3 change_color" id="cartnum">0</div>
+						</div>
+						<div id="cart_sec" class="sec">
+							我的购物车(<span id="cart_num">0</span>)
+							<i class="sec_arrow"></i>
+						</div>
+					</a>
+				</li>
+				<li class="money">
+					<a href="javascript:;">
+						<div class="cart_money">
+							<div class="cart_money1"></div>
+							<div class="cart_money2">资产</div>
+							<div class="cart_tab3 change_color" id="moneynum">0</div>
+						</div>
+						<div id="money_sec" class="sec">
+							我的资产(<span id="money_num">0</span>)
+							<i class="sec_arrow"></i>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<div class="cart_book">
+							<div class="cart_book1"></div>
+							<div class="cart_book2">订单</div>
+						</div>
+						<div id="book_sec" class="sec">
+							我的订单
+							<i class="sec_arrow"></i>
+						</div>
+					</a>
+				</li>
+				<li class="fav">
+					<a href="javascript:;">
+						<div class="cart_fav">
+							<div class="cart_fav1"></div>
+							<div class="cart_fav2">收藏</div>
+						</div>
+						<div id="fav_sec" class="sec">
+							我的收藏
+							<i class="sec_arrow"></i>
+						</div>
+					</a>
+
+				</li>
+				<li class="phone">
+					<a href="javascript:;">
+						<div class="cart_phone">
+							<div class="cart_phone1"></div>
+							<div class="cart_phone2">手机</div>
+						</div>
+						<div id="phone_sec" class="sec">
+							<img src="img/indexImg/weixin_two.jpg" />
+						</div>
+					</a>
+				</li>
+				<li class="service">
+					<a href="javascript:;">
+						<div class="cart_service">
+							<div class="cart_service1"></div>
+							<div class="cart_service2">客服</div>
+						</div>
+						<div id="serv_sec" class="sec">
+							咨询客服
+							<p>每日9: 00-18：00</p>
+							<i class="sec_arrow"></i>
+						</div>
+					</a>
+				</li>
+				<li class="back_top">
+					<a href="javascript:;">
+						<div class="cart_back">
+							<div class="cart_back1"></div>
+						</div>
+						<div id="back_sec" class="sec">
+							返回顶部
+							<i class="sec_arrow"></i>
+						</div>
+					</a>
+				</li>
+			</ul>
+
+		</div>
+		<div id="container">
+			<div class="cart_container">
+				<a class="cart_logo" href="#">
+					<img src="img/indexImg/buy_top.jpg" />
+				</a>
+				<div id="mycar">
+					<div id="cart_product">
+
+					</div>
+					<a class="shop_btn" href="cart.html">您还没有购买商品</a>
+				</div>
+				<a class="close" href="javascript:;"></a>
+				<i class="sec_arrow"></i>
+			</div>
+		</div>
+	</body>
+
+</html>

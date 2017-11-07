@@ -1,0 +1,27 @@
+{
+	"15557": {
+		"name": "商务休闲系列/耐磨/牛皮/咖色/光面/靴子",
+		"oldprice": "1159",
+		"newprice": "659",
+		"src": [
+			"img/detail/15557_nde_1.jpg",
+			"img/detail/15557_nde_2.jpg",
+			"img/detail/15557_nde_3.jpg",
+			"img/detail/15557_nde_4.jpg",
+			"img/detail/15557_nde_5.jpg"
+		]
+	},
+	"20682": {
+		"name": "休闲潮靴系列/牛皮/拼接/黑色/光面/休闲靴",
+		"oldprice": "2499",
+		"newprice": "409",
+		"src": [
+			"img/detail/20682_nde_1.jpg",
+			"img/detail/20682_nde_2.jpg",
+			"img/detail/20682_nde_3.jpg",
+			"img/detail/20682_nde_4.jpg",
+			"img/detail/20682_nde_5.jpg"
+		]
+	}
+}
+

@@ -1,0 +1,206 @@
+.register .masa_register {
+	width: 1200px;
+	margin: 0 auto;
+	color: #888888;
+	font-size: 12px;
+}
+
+.reg_left {
+	width: 420px;
+	float: left;
+	margin-left: 150px;
+}
+
+.reg_right {
+	width: 466px;
+	float: left;
+	margin-top: 104px;
+}
+
+.reg_left .left1 {
+	font-size: 14px;
+	color: #343434;
+	margin: 40px 0 20px
+}
+
+.reg_left .left1 span {
+	color: #888888;
+	font-size: 12px;
+}
+
+.reg_left .left1 span a {
+	color: #cb3330;
+	text-decoration: none;
+}
+
+.reg_left .left2 {
+	font-size: 12px;
+}
+
+.reg_left .left3 {
+	width: 420px;
+	overflow: hidden;
+}
+
+.icon1 {
+	background: url(../img/RegLog/email_b1.jpg) no-repeat;
+	width: 135px;
+	height: 35px;
+	line-height: 35px;
+	float: left;
+	margin-top: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.icon1 span {
+	background: url(../img/RegLog/email_t1.png) no-repeat;
+	width: 20px;
+	height: 14px;
+	float: left;
+	margin: 11px 18px 0 8px
+}
+
+.icon2 {
+	margin-left: 25px;
+	background: url(../img/RegLog/email_b1.jpg) no-repeat;
+	width: 135px;
+	height: 35px;
+	line-height: 35px;
+	float: left;
+	margin-top: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.icon2 span {
+	background: url(../img/RegLog/phone_t1.png) no-repeat;
+	width: 13px;
+	height: 24px;
+	float: left;
+	margin: 6px 20px 0 11px;
+}
+
+.on {
+	background: url(../img/RegLog/email_b2.jpg) no-repeat;
+	color: #972a41;
+}
+
+.box_wrap {
+	height: 415px;
+	position: relative;
+	overflow: hidden;
+}
+
+.tab_bd {
+	top: 0px;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}
+
+.email_reg,
+.phone_reg {
+	clear: both;
+	margin-top: 25px;
+	overflow: hidden;
+	height: 390px;
+}
+
+.write_ema,
+.write_pwd,
+.write_pwdagin {
+	height: 45px;
+	line-height: 45px;
+	position: relative;
+}
+
+#username,
+#pwd,
+#pwdagin,#phone,#phoneagin,#phonepwd {
+	width: 228px;
+	border: 1px solid #888;
+	height: 33px;
+	padding-left: 10px;
+	font: 12px/33px Tahoma, Geneva, sans-serif;
+	outline: none;
+}
+
+.user_sec,
+.pwd_sec,
+.agin_sec,
+.yzm_sec {
+	position: absolute;
+	display: none;
+	left: 247px;
+	top: 0;
+	/*border: 1px solid red;*/
+	height: 40px;
+	line-height: 40px;
+	padding: 0 5px;
+	color: red;
+}
+
+.strong {
+	height: 45px;
+	margin: 5px 0;
+}
+
+.strong div {
+	float: left;
+	width: 78px;
+	text-align: center;
+	padding: 5px 1px;
+	border-bottom: 5px solid #666666;
+}
+
+.strong .strong_1 {
+	border-color: #cd3333;
+}
+
+.check {
+	padding: 20px 0;
+	height: 35px;
+}
+
+.check span {
+	color: #CB3330;
+}
+#yzm{
+	    border: 1px solid #888;
+    height: 33px;
+    padding-left: 10px;
+    font: 12px/33px Tahoma, Geneva, sans-serif;
+    outline: none;
+    width: 60px;
+}
+.phone_reg .write_pwd img{
+	vertical-align: middle;
+}
+.area_agree{
+	width: 95%;
+    height: 138px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    line-height: 20px;
+    resize: none;
+    outline: none;
+    color: #888888;
+}
+.reg_text{
+	color: #333333;
+	text-align: left;
+	margin-top: 15px;
+}
+.reg_title h3{
+	    clear: both;
+    font-weight: bold;
+    line-height: 25px;
+ 
+}
+.reg_content{
+	    line-height: 20px;
+    color: #323232;
+    margin-top: 15px;
+}

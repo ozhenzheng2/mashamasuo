@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/cookie.js" ></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script type="text/javascript" src="js/cart.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cart.css" />
+	</head>
+
+	<body>
+		<div class="cart_warp">
+			<div class="cart_head">
+				
+			</div>
+			<div id="direction">
+				<div class="direc_wrap">
+					结算步骤：
+					<span>我的购物车</span>
+					>>&nbsp;结算中心&nbsp;>>&nbsp;订单完成
+				</div>
+			</div>
+			<div id="cart_container" class="clearfix">
+				<h3>我的购物车</h3>
+				<div class="tishi">
+					温馨提示：目前购物尚未完成，请您尽快完成订单提交，以便我们为您确认库存状态，并及时配送。
+					<a href="javascript:;"></a>
+				</div>
+				<div class="login_tips">
+					<div class="none">
+						您目前购物车内尚未加入任何商品，现在就开始购物吧。
+					</div>
+					<ul class="clearfix">
+						<li>现在，您还可以:</li>
+						<li>
+							<a href="goods_list.html">去新装发布</a>
+						</li>
+						<li>
+							<a href="javascript:;">去团购</a>
+						</li>
+						<li>
+							<a href="javascript:;">去特价区</a>
+						</li>
+						<li>
+							<a href="index.html">回到网站首页</a>
+						</li>
+						<li>
+							<a href="javascript:;">查看订单</a>
+						</li>
+						<li>
+							<a href="javascript:;">反馈意见</a>
+						</li>
+					</ul>
+				</div>
+				<div class="shopping_box">
+					<div class="cart_species clearfix">
+						<div class="cart_code">款号</div>
+						<div class="cart_name">商品</div>
+						<div class="cart_oldp">原价</div>
+						<div class="cart_newp">现价</div>
+						<div class="cart_num">数量</div>
+						<div class="cart_total">小计</div>
+						<div class="cart_del">操作</div>
+					</div>
+				
+				</div>
+				<div class="shopping_total clearfix">
+					<div class="del_all">
+						<a id="del_all" href="javascript:;">清空购物车</a>
+						<a href="javascript:;">点击查看刚删除商品</a>
+					</div>
+					<div class="real_pay">
+						实际支付金额满￥200.00免运费
+					</div>
+					<div class="zhekou">
+						<p>优惠券折扣：¥0</p>
+						<p>积分折扣：¥0</p>
+					</div>
+					<div class="original">
+						<p>
+							商品原价：￥
+							<span class="_good_oldpri"></span>
+						</p>
+						<p>
+							优惠金额：￥
+							<span class="_good_youhui"></span>
+						</p>
+					</div>
+					<div class="good_total">
+						<p>运费：￥0</p>
+						<p>
+							商品总金额:
+							<span class="_good_total">￥</span>
+						</p>
+					</div>
+				</div>
+				<div class="pay_box clearfix">
+					<a href="index.html">
+						<img src="img/cart/jx_gou.jpg"/>
+					</a>
+					<a href="javascript:;">
+						<img src="img/cart/btn_settlement.jpg"/>
+					</a>
+				</div>
+				<div class="exchange">
+					<div class="ex_tit">
+						<h3>订单换购</h3>
+					</div>
+					<div id="ex_product" class="clearfix">
+						<ul class="clearfix">
+							<li>
+								<a href="javascript:;">>> 满300元换购</a>
+							</li>
+						</ul>
+						<div class="gift">
+							<div id="gift_box" class="clearfix">
+								<li>
+									<div class="leftimg">
+										<a href="javascript:;">
+											<img src="img/cart/exchange_1.jpg"/>
+										</a>
+									</div>
+									<div class="right_text">
+										<a class="gift_name" href="javascript:;">
+											银离子抑...
+										</a>
+										&nbsp;售价：
+										<span class="product_oldprice">49</span>
+										元
+										<div>
+											节省
+											<span>20</span>
+											元&nbsp;&nbsp;换购价
+											<span class="product_newprice">29</span>
+											元
+										</div>
+										选择尺码：
+										<select>
+											<option>均码</option>
+										</select>
+										<a gift_id="10001" class="gift_add" href="javascript:;">
+											<img src="img/cart/btn_buy.jpg"/>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="leftimg">
+										<a href="javascript:;">
+											<img src="img/cart/exchange_2.jpg"/>
+										</a>
+									</div>
+									<div class="right_text">
+										<a class="gift_name" href="javascript:;">
+											本色生活...
+										</a>
+										&nbsp;售价：
+										<span class="product_oldprice">49</span>
+										元
+										<div>
+											节省
+											<span>30</span>
+											元&nbsp;&nbsp;换购价
+											<span class="product_newprice">19</span>
+											元
+										</div>
+										选择尺码：
+										<select>
+											<option>均码</option>
+										</select>
+										<a gift_id="10002" class="gift_add" href="javascript:;">
+											<img src="img/cart/btn_buy.jpg"/>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="leftimg">
+										<a href="javascript:;">
+											<img src="img/cart/exchange_3.jpg"/>
+										</a>
+									</div>
+									<div class="right_text">
+										<a class="gift_name" href="javascript:;">
+											星座物语...
+										</a>
+										&nbsp;售价：
+										<span class="product_oldprice">89</span>
+										元
+										<div>
+											节省
+											<span>50</span>
+											元&nbsp;&nbsp;换购价
+											<span class="product_newprice">39</span>
+											元
+										</div>
+										选择尺码：
+										<select>
+											<option>均码</option>
+										</select>
+										<a gift_id="10003" class="gift_add" href="javascript:;">
+											<img src="img/cart/btn_buy.jpg"/>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="leftimg">
+										<a href="javascript:;">
+											<img src="img/cart/exchange_4.jpg"/>
+										</a>
+									</div>
+									<div class="right_text">
+										<a class="gift_name" href="javascript:;">
+											星际穿越...
+										</a>
+										&nbsp;售价：
+										<span class="product_oldprice">89</span>
+										元
+										<div>
+											节省
+											<span>50</span>
+											元&nbsp;&nbsp;换购价
+											<span class="product_newprice">49</span>
+											元
+										</div>
+										选择尺码：
+										<select>
+											<option>均码</option>
+										</select>
+										<a gift_id="10004" class="gift_add" href="javascript:;">
+											<img src="img/cart/btn_buy.jpg"/>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="leftimg">
+										<a href="javascript:;">
+											<img src="img/cart/exchange_5.jpg"/>
+										</a>
+									</div>
+									<div class="right_text">
+										<a class="gift_name" href="javascript:;">
+											时尚绅士...
+										</a>
+										&nbsp;售价：
+										<span class="product_oldprice">59</span>
+										元
+										<div>
+											节省
+											<span>40</span>
+											元&nbsp;&nbsp;换购价
+											<span class="product_newprice">19</span>
+											元
+										</div>
+										选择尺码：
+										<select>
+											<option>均码</option>
+										</select>
+										<a gift_id="10005" class="gift_add" href="javascript:;">
+											<img src="img/cart/btn_buy.jpg"/>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="leftimg">
+										<a href="javascript:;">
+											<img src="img/cart/exchange_6.jpg"/>
+										</a>
+									</div>
+									<div class="right_text">
+										<a class="gift_name" href="javascript:;">
+											银离子抑...
+										</a>
+										&nbsp;售价：
+										<span class="product_oldprice">49</span>
+										元
+										<div>
+											节省
+											<span>20</span>
+											元&nbsp;&nbsp;换购价
+											<span class="product_newprice">29</span>
+											元
+										</div>
+										选择尺码：
+										<select>
+											<option>均码</option>
+										</select>
+										<a gift_id="10006" class="gift_add" href="javascript:;">
+											<img src="img/cart/btn_buy.jpg"/>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="leftimg">
+										<a href="javascript:;">
+											<img src="img/cart/exchange_7.jpg"/>
+										</a>
+									</div>
+									<div class="right_text">
+										<a class="gift_name" href="javascript:;">
+											遇见未来...
+										</a>
+										&nbsp;售价：
+										<span class="product_oldprice">89</span>
+										元
+										<div>
+											节省
+											<span>60</span>
+											元&nbsp;&nbsp;换购价
+											<span class="product_newprice">29</span>
+											元
+										</div>
+										选择尺码：
+										<select>
+											<option>均码</option>
+										</select>
+										<a gift_id="10007" class="gift_add" href="javascript:;">
+											<img src="img/cart/btn_buy.jpg"/>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="leftimg">
+										<a href="javascript:;">
+											<img src="img/cart/exchange_8.jpg"/>
+										</a>
+									</div>
+									<div class="right_text">
+										<a class="gift_name" href="javascript:;">
+											方巾
+										</a>
+										&nbsp;售价：
+										<span class="product_oldprice">69</span>
+										元
+										<div>
+											节省
+											<span>50</span>
+											元&nbsp;&nbsp;换购价
+											<span class="product_newprice">19</span>
+											元
+										</div>
+										选择尺码：
+										<select>
+											<option>均码</option>
+										</select>
+										<a gift_id="10008" class="gift_add" href="javascript:;">
+											<img src="img/cart/btn_buy.jpg"/>
+										</a>
+									</div>
+								</li>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_cart">
+			<address>
+				 Copyright © 2008-2050 MasaMaso.com All Right Reserved 京ICP证080088号
+			</address>
+		</div>
+	</body>
+
+</html>
